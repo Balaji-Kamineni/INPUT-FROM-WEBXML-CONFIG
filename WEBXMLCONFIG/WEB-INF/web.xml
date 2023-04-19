@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>F</servlet-name>
+        <servlet-class>sumservlet</servlet-class>
+        <init-param>
+            <param-name>a</param-name>
+            <param-value>5</param-value>
+        </init-param>
+        <init-param>
+            <param-name>b</param-name>
+            <param-value>5</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>F</servlet-name>
+        <url-pattern>/sum</url-pattern>
+    </servlet-mapping>
+</web-app>
